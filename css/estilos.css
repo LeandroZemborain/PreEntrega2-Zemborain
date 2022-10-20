@@ -333,7 +333,7 @@ header {
 
 .card {
     height: 20vh;
-    width: 15vw;
+    width: 20vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -343,7 +343,7 @@ header {
 .card-img {
     filter: grayscale(60%);
     height: 15vh;
-    width: 12vw;
+    width: 18vw;
     margin: .2em;
     background-repeat: no-repeat;
     background-position: center;
