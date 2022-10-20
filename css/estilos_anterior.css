@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:active{
+    text-decoration: none;
+    color: rgb(5, 255, 255);
+}
+
+/*------header-------*/
+
+.df-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(73, 98, 211);
+ 
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+.logo p{
+    text-align: right;
+    margin:10px;
+    padding-left: 80px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+
+.df-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 20px;
+}
+
+.df-ul a{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: dotted;
+    font-size: 22px;
+    margin: 20px;
+}
+
+
+.tazasmc{
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+}
+
+.buscador{
+    display: flex;
+    margin: 10px;
+    align-items: end;
+}
+
+
+/*------------fin de header---------*/
+
+
+
+
+/*----------main--------*/
+.bg-main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(1, 1, 96);
+}
+    
+
+.fondo{
+    width: 950px;
+    height: 420px;
+    margin:  60px 40px 1px 40px;
+    
+}
+  
+.bg-main div p{
+    position: relative;
+    top: -70px;
+    left: 140px;
+    margin: 5px;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    width: 700px;
+    height: 40px;
+    background-color: rgba(4, 9, 105, 0.314);
+    text-align: center;
+    justify-content: center;
+}
+.bg-main div p a{
+    color: rgb(161, 252, 63);
+    text-decoration: underline;
+}
+/*----------fin de main--------*/
+
+
+/*---------footer----------*/
+.bg-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(73, 98, 211);
+    font-style: italic;
+    color: aliceblue;
+}
+    
+.redes a img{
+    width: 40px;
+    height: auto;
+    margin: 10px;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+}
+.redes p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/*---------fin de footer----------*/
+
+
+
+/*-----seccion productos--------*/
+
+.productos-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgb(1, 1, 96);
+
+}
+
+.titulo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    font-style: italic;
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.productos{
+    display: flex;
+    justify-content: space-evenly;  
+    margin: 0px 0px 150px;    
+}
+.productos img{
+    width: 8cm;
+    height: 6cm;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;  
+    text-align: center;
+    position: relative;
+    top: -120px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.botones button{
+    background-color: rgb(10, 242, 52);
+    color: aliceblue;
+    width: 4cm;
+}
+
+.botones button:hover{
+    background-color: rgb(32, 91, 5);
+}
+
+/*----------fin productos-------------*/
+
+
+
+/*----------seccion servicios---------*/
+
+.parrafo{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    margin: 50px;
+}
+.titulodos{
+    text-align: center;
+    text-decoration-line: underline;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: .5cm;
+}
+
+.serv-botones button{
+    background-color: rgb(10, 242, 52);
+    color: aliceblue;
+    width: 4cm;
+    margin-bottom: 1cm;
+}
+
+.serv-botones button:hover{
+    background-color: rgb(32, 91, 5);
+}
+
+/*--------------------fin servicios-----------*/
+
+
+
+
+/*--------------seccion nosotros----------*/
+.carrusel{
+    display: flex;
+    justify-content: space-around;
+}
+.carrusel img{
+    width: 300px;
+    height: 220px;
+}
+/*----------fin nosotros------------------*/
+
+
+
+
+/*---------------seccion contacto--------------------------*/
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.formulario input{
+    width: 300px;
+}
+
+
+.form-boton button{
+    background-color: rgb(10, 242, 52);
+    color: aliceblue;
+    width: 4cm;
+    margin-bottom: 1cm;
+}
+
+.form-boton button:hover{
+    background-color: rgb(32, 91, 5);
+}
+
+
+
+/*------------------fin contacto---------------*/
+
+
+
+
+
+    
+    
+    
+
+
+
+
